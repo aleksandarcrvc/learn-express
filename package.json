@@ -1,14 +1,16 @@
 {
   "name": "learn-express",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "simple express ",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.5.6",
     "express": "^4.14.1"
   }
 }
